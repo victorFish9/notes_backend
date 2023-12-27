@@ -1,7 +1,1 @@
-PUT http://localhost:3001/api/notes/6579db35231d628a0dc362d7
-Content-Type: application/json
-
-{
-    "content" : "Py",
-    "important": true
-}
+GET http://localhost:3001/api/notes/
