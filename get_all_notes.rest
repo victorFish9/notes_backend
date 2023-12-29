@@ -1,1 +1,33 @@
-GET http://localhost:3001/api/notes/
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZjaGVya2Fzb3YiLCJpZCI6IjY1OGMzMjUyOGJjZDJiNDE0MmM1ZGZkZCIsImlhdCI6MTcwMzg0ODM5OX0._pLmRbP7fMHn9wcsTHKb_ii6oqSN6_8Pa3BCxS8evvw
+
+{
+    "content" : "notes added with token",
+    "important": true
+}
+
+# { 
+    #eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZjaGVya2Fzb3YiLCJpZCI6IjY1OGMzMjUyOGJjZDJiNDE0MmM1ZGZkZCIsImlhdCI6MTcwMzc4Mjc0Nn0.u3XS2Wy8tvFNyu7_O07jDWDjKUyGAT1PPHV5Z2wdrMA
+#     "username" : "vcherkasov",
+#     "password" : "12345"
+# }
+
+
+
+
+#note 
+# {
+#     "content" : "Note added with token",
+#     "important": true,
+# }
+
+
+
+#user
+# {
+#     "notes": [ ],
+#     "name": "Victor Cherkasov",
+#     "username": "vcherkasov",
+#     "password": "12345"
+# }
